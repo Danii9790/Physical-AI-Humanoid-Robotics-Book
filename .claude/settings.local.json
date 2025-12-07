@@ -14,7 +14,11 @@
       "Bash(set GIT_USER=Danii9790:*)",
       "Bash($env:GIT_USER=\"Danii9790\")",
       "Bash(cross-env GIT_USER=Danii9790 npm run deploy:*)",
-      "Bash(gh api:*)"
+      "Bash(gh api:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
+      "Bash(gh repo edit:*)",
+      "Bash(gh workflow run:*)"
     ],
     "deny": [],
     "ask": []
