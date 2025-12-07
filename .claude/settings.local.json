@@ -3,7 +3,18 @@
     "allow": [
       "mcp__github__create_repository",
       "mcp__github__search_repositories",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git push:*)",
+      "Bash(gh --version:*)",
+      "Bash(gh repo create:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run deploy)",
+      "Bash(set GIT_USER=Danii9790:*)",
+      "Bash($env:GIT_USER=\"Danii9790\")",
+      "Bash(cross-env GIT_USER=Danii9790 npm run deploy:*)",
+      "Bash(gh api:*)"
     ],
     "deny": [],
     "ask": []
