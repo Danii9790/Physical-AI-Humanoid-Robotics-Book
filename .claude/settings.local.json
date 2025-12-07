@@ -20,7 +20,16 @@
       "Bash(gh repo edit:*)",
       "Bash(gh workflow run:*)",
       "Bash(gh repo view:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(magick convert:*)",
+      "Bash(cp:*)",
+      "Bash(timeout 10 npm run start:*)",
+      "Bash(timeout:*)",
+      "Bash(npm run start:*)",
+      "Bash(npm run write-translations:*)",
+      "Bash(npm install:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm run serve:*)"
     ],
     "deny": [],
     "ask": []
